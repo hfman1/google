@@ -1,0 +1,179 @@
+/* Main elements*/
+
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: white;
+    background-color: #202124;
+
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* Navbar */
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.gb_Ue {
+    fill: white;
+    width: 24px;
+    height: 24px;
+    
+    
+}
+
+.nav-img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+nav div {
+    margin: 4px;
+    padding: 6px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-img:hover {
+    background-color: #303134;
+
+}
+
+/* Google logo */
+
+.google-logo {
+   margin-top: 40px;
+}
+
+.g-img {
+    width: 272px;
+}
+
+/* Search bar */
+
+.search-bar {
+    margin-top: 20px;
+    border: 1px solid #47484b;
+    border-radius: 30px;
+    width: 600px;
+    height: 45px;
+    margin-bottom: 30px;
+    
+}
+
+.search-b {
+    fill: #bdc1c6;
+    width: 20px;
+    padding-top: 7.5px;
+    
+}
+
+.voice-assistant {
+    width: 24px;
+    padding-top: 5.5px;
+}
+
+.voice-assistant:hover {
+    cursor: pointer;
+}
+
+.input-bar {
+    all: unset;
+    
+}
+
+.search-bar:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+    
+}
+
+.search-bar div {
+    padding: 5px;
+}
+
+/* Buttons */
+
+.google-button {
+    all: unset;
+    color: #e8eaed;
+    background-color: #303134;
+    padding: 10px 17px;
+    border: 1px solid #303134;
+    border-radius: 5px; 
+}
+
+.google-button:hover {
+    border: 1px solid #686969;
+    cursor: pointer;
+
+}
+
+.offered {
+    margin-top: 30px;
+    color: #bdc1c6;
+    font-size: 13px;
+}
+
+.link-offered:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+/* Footer */
+
+.country-footer {
+    color: #9aa0a6;
+    display: flex;
+    padding: 15px 30px;
+}
+
+.footer-google {
+    color: #9aa0a6;
+    display: flex;
+    padding: 15px 30px;
+}
+
+.footer {
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    
+}
+
+.footer-google div {
+    margin-right: 30px;
+}
+
+.first-footer {
+    padding-left: 20px;
+}
+
+.privacy-footer {
+    margin-left: 20px;
+}
+
+hr {
+    color: #9aa0a6;
+    border: none;
+    height: 0.5px;
+}
